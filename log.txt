@@ -1,0 +1,1438 @@
+2022-02-16 09:57:25.655 15994-16024/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=130.83ms min=2.86ms max=3299.13ms count=26
+2022-02-16 09:57:26.729 15994-16024/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=51.10ms min=2.28ms max=908.85ms count=21
+2022-02-16 09:57:27.152 15994-16254/com.daasuu.mp4composer D/Mp4Composer: rotation = 90
+2022-02-16 09:57:27.152 15994-16254/com.daasuu.mp4composer D/Mp4Composer: rotation = ROTATION_90
+2022-02-16 09:57:27.152 15994-16254/com.daasuu.mp4composer D/Mp4Composer: inputResolution width = 1920 height = 1080
+2022-02-16 09:57:27.152 15994-16254/com.daasuu.mp4composer D/Mp4Composer: outputResolution width = 720 height = 720
+2022-02-16 09:57:27.152 15994-16254/com.daasuu.mp4composer D/Mp4Composer: fillMode = PRESERVE_ASPECT_FIT
+2022-02-16 09:57:27.152 15994-16254/com.daasuu.mp4composer D/Mp4Composer: bitrate=3888000
+2022-02-16 09:57:27.153 15994-16254/com.daasuu.mp4composer W/FileSource: offset/length adjusted from 0/576460752303423487 to 0/18917188
+2022-02-16 09:57:27.189 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: PreAllocation disabled. fallocate : Operation not supported on transport endpoint, 95
+2022-02-16 09:57:27.198 15994-16254/com.daasuu.mp4composer D/Mp4ComposerEngine: Duration (us): 6828000
+2022-02-16 09:57:27.209 15994-16256/com.daasuu.mp4composer I/OMXClient: IOmx service obtained
+2022-02-16 09:57:27.212 15994-16256/com.daasuu.mp4composer W/OMXUtils: do not know color format 0x7f000789 = 2130708361
+2022-02-16 09:57:27.212 15994-16256/com.daasuu.mp4composer I/ACodec: setupAVCEncoderParameters with [profile: Baseline] [level: Level41]
+2022-02-16 09:57:27.213 15994-16256/com.daasuu.mp4composer I/ACodec: [OMX.google.h264.encoder] cannot encode color aspects. Ignoring.
+2022-02-16 09:57:27.213 15994-16256/com.daasuu.mp4composer I/ACodec: [OMX.google.h264.encoder] cannot encode HDR static metadata. Ignoring.
+2022-02-16 09:57:27.213 15994-16256/com.daasuu.mp4composer I/ACodec: setupVideoEncoder succeeded
+2022-02-16 09:57:27.214 15994-16256/com.daasuu.mp4composer W/OMXUtils: do not know color format 0x7f000789 = 2130708361
+2022-02-16 09:57:27.216 15994-16254/com.daasuu.mp4composer D/HostConnection: createUnique: call
+2022-02-16 09:57:27.223 15994-16254/com.daasuu.mp4composer D/librcm: SocketClient connected to host port 22469
+2022-02-16 09:57:27.228 15994-16254/com.daasuu.mp4composer D/HostConnection: HostConnection::get() New Host Connection established 0x73bf24422210, tid 16254
+2022-02-16 09:57:27.228 15994-16254/com.daasuu.mp4composer D/HostConnection: HostComposition ext ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_virtio_gpu_next ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr GL_EXT_texture_compression_bptc GL_EXT_texture_compression_s3tc ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+2022-02-16 09:57:27.234 15994-16254/com.daasuu.mp4composer E/EGL_emulation: eglCreateContext: 0x73bf24423950: maj 3 min 0 rcv 3
+2022-02-16 09:57:27.249 15994-16254/com.daasuu.mp4composer D/EGL_emulation: eglMakeCurrent: 0x73bf24423950: ver 3 0 (tinfo 0x73c129b3b100) (first time)
+2022-02-16 09:57:27.257 15994-16254/com.daasuu.mp4composer E/emuglGLESv2_enc: device/generic/goldfish-opengl/system/GLESv2_enc/GL2Encoder.cpp:s_glDeleteProgram:2003 GL error 0x501 condition [!isShaderOrProgramObject]
+2022-02-16 09:57:27.257 15994-16254/com.daasuu.mp4composer E/emuglGLESv2_enc: device/generic/goldfish-opengl/system/GLESv2_enc/GL2Encoder.cpp:s_glDeleteShader:2117 GL error 0x501 condition [!isShaderOrProgramObject && !isShader]
+2022-02-16 09:57:27.257 15994-16254/com.daasuu.mp4composer E/emuglGLESv2_enc: device/generic/goldfish-opengl/system/GLESv2_enc/GL2Encoder.cpp:s_glDeleteShader:2117 GL error 0x501 condition [!isShaderOrProgramObject && !isShader]
+2022-02-16 09:57:27.272 15994-16254/com.daasuu.mp4composer E/emuglGLESv2_enc: device/generic/goldfish-opengl/system/GLESv2_enc/GL2Encoder.cpp:s_glDeleteProgram:2003 GL error 0x501 condition [!isShaderOrProgramObject]
+2022-02-16 09:57:27.272 15994-16254/com.daasuu.mp4composer E/emuglGLESv2_enc: device/generic/goldfish-opengl/system/GLESv2_enc/GL2Encoder.cpp:s_glDeleteShader:2117 GL error 0x501 condition [!isShaderOrProgramObject && !isShader]
+2022-02-16 09:57:27.272 15994-16254/com.daasuu.mp4composer E/emuglGLESv2_enc: device/generic/goldfish-opengl/system/GLESv2_enc/GL2Encoder.cpp:s_glDeleteShader:2117 GL error 0x501 condition [!isShaderOrProgramObject && !isShader]
+2022-02-16 09:57:27.292 15994-16254/com.daasuu.mp4composer E/emuglGLESv2_enc: device/generic/goldfish-opengl/system/GLESv2_enc/GL2Encoder.cpp:s_glDeleteProgram:2003 GL error 0x501 condition [!isShaderOrProgramObject]
+2022-02-16 09:57:27.292 15994-16254/com.daasuu.mp4composer E/emuglGLESv2_enc: device/generic/goldfish-opengl/system/GLESv2_enc/GL2Encoder.cpp:s_glDeleteShader:2117 GL error 0x501 condition [!isShaderOrProgramObject && !isShader]
+2022-02-16 09:57:27.292 15994-16254/com.daasuu.mp4composer E/emuglGLESv2_enc: device/generic/goldfish-opengl/system/GLESv2_enc/GL2Encoder.cpp:s_glDeleteShader:2117 GL error 0x501 condition [!isShaderOrProgramObject && !isShader]
+2022-02-16 09:57:27.311 15994-16254/com.daasuu.mp4composer E/emuglGLESv2_enc: device/generic/goldfish-opengl/system/GLESv2_enc/GL2Encoder.cpp:s_glDeleteProgram:2003 GL error 0x501 condition [!isShaderOrProgramObject]
+2022-02-16 09:57:27.311 15994-16254/com.daasuu.mp4composer E/emuglGLESv2_enc: device/generic/goldfish-opengl/system/GLESv2_enc/GL2Encoder.cpp:s_glDeleteShader:2117 GL error 0x501 condition [!isShaderOrProgramObject && !isShader]
+2022-02-16 09:57:27.311 15994-16254/com.daasuu.mp4composer E/emuglGLESv2_enc: device/generic/goldfish-opengl/system/GLESv2_enc/GL2Encoder.cpp:s_glDeleteShader:2117 GL error 0x501 condition [!isShaderOrProgramObject && !isShader]
+2022-02-16 09:57:27.326 15994-16254/com.daasuu.mp4composer E/EGL_emulation: eglQueryContext 32c0  EGL_BAD_ATTRIBUTE
+2022-02-16 09:57:27.326 15994-16254/com.daasuu.mp4composer E/EGL_emulation: tid 16254: eglQueryContext(2161): error 0x3004 (EGL_BAD_ATTRIBUTE)
+2022-02-16 09:57:27.326 15994-16254/com.daasuu.mp4composer E/emuglGLESv2_enc: device/generic/goldfish-opengl/system/GLESv2_enc/GL2Encoder.cpp:s_glDeleteProgram:2003 GL error 0x501 condition [!isShaderOrProgramObject]
+2022-02-16 09:57:27.326 15994-16254/com.daasuu.mp4composer E/emuglGLESv2_enc: device/generic/goldfish-opengl/system/GLESv2_enc/GL2Encoder.cpp:s_glDeleteShader:2117 GL error 0x501 condition [!isShaderOrProgramObject && !isShader]
+2022-02-16 09:57:27.326 15994-16254/com.daasuu.mp4composer E/emuglGLESv2_enc: device/generic/goldfish-opengl/system/GLESv2_enc/GL2Encoder.cpp:s_glDeleteShader:2117 GL error 0x501 condition [!isShaderOrProgramObject && !isShader]
+2022-02-16 09:57:27.349 15994-16261/com.daasuu.mp4composer I/OMXClient: IOmx service obtained
+2022-02-16 09:57:27.351 15994-16260/com.daasuu.mp4composer D/SurfaceUtils: connecting to surface 0x73c014448f90, reason connectToSurface
+2022-02-16 09:57:27.351 15994-16260/com.daasuu.mp4composer I/MediaCodec: [OMX.google.h264.decoder] setting surface generation to 16377857
+2022-02-16 09:57:27.351 15994-16260/com.daasuu.mp4composer D/SurfaceUtils: disconnecting from surface 0x73c014448f90, reason connectToSurface(reconnect)
+2022-02-16 09:57:27.351 15994-16260/com.daasuu.mp4composer D/SurfaceUtils: connecting to surface 0x73c014448f90, reason connectToSurface(reconnect)
+2022-02-16 09:57:27.351 15994-16261/com.daasuu.mp4composer E/ACodec: [OMX.google.h264.decoder] setPortMode on output to DynamicANWBuffer failed w/ err -1010
+2022-02-16 09:57:27.392 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.397 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.398 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.398 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:27.399 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.403 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.403 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.403 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:27.403 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.403 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:27.404 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.406 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.406 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.406 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:27.406 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.406 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:27.406 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.408 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.408 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.408 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:27.409 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.008764425893380199
+2022-02-16 09:57:27.409 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.410 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.410 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.410 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:27.411 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.411 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:27.411 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.412 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.412 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.412 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:27.413 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.413 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.414 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.414 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:27.414 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.414 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:27.414 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.417 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.417 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.417 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:27.418 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.018139132981839483
+2022-02-16 09:57:27.418 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.418 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.429 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.429 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.440 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.440 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.451 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.451 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.462 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.462 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.472 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.473 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.483 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.483 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.494 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.494 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.504 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.504 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.515 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.516 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.516 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.018139132981839483
+2022-02-16 09:57:27.526 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.526 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.537 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.537 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.547 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.548 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.548 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.548 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:27.548 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.548 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:27.548 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.548 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.559 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.559 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.570 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.570 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.580 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.580 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.591 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.591 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.591 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.02126654950205038
+2022-02-16 09:57:27.602 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.602 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.603 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.603 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:27.603 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.603 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.613 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.614 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.624 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.624 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.635 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.635 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:27.645 15994-16260/com.daasuu.mp4composer D/MediaCodec: [OMX.google.h264.decoder] setting dataspace on output surface to #8c40000
+2022-02-16 09:57:27.646 15994-16260/com.daasuu.mp4composer W/Gralloc4: allocator 3.x is not supported
+2022-02-16 09:57:27.646 15994-16260/com.daasuu.mp4composer W/Gralloc3: allocator 3.x is not supported
+2022-02-16 09:57:27.690 15994-16260/com.daasuu.mp4composer D/SoftwareRenderer: setting dataspace on output surface to #8c40000
+2022-02-16 09:57:27.691 15994-16254/com.daasuu.mp4composer W/suu.mp4compose: [SurfaceTexture-1-15994-0] bindTextureImage: clearing GL error: 0x501
+2022-02-16 09:57:27.711 15994-16256/com.daasuu.mp4composer D/ACodec: dataspace changed to 0x10c10000 (R:2(Limited), P:1(BT709_5), M:1(BT709_5), T:3(SMPTE170M)) (R:2(Limited), S:1(BT709), T:3(SMPTE_170M))
+2022-02-16 09:57:27.727 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:27.728 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.729 15994-16254/com.daasuu.mp4composer D/MuxRender: Added track #0 with video/avc to muxer
+2022-02-16 09:57:27.729 15994-16254/com.daasuu.mp4composer D/MuxRender: Added track #1 with audio/mp4a-latm to muxer
+2022-02-16 09:57:27.729 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: fpathconf _PC_FILESIZEBITS:64
+2022-02-16 09:57:27.729 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: File size limit set to 4503599627370495 bytes implicitly
+2022-02-16 09:57:27.729 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: MP4WtrCtrlHlpLooper Started
+2022-02-16 09:57:27.729 15994-16254/com.daasuu.mp4composer I/MPEG4Writer: limits: 4503599627370495/0 bytes/us, bit rate: -1 bps and the estimated moov size 3192 bytes
+2022-02-16 09:57:27.729 15994-16279/com.daasuu.mp4composer D/MPEG4Writer: kWhatNoIOErrorSoFar
+2022-02-16 09:57:27.729 15994-16254/com.daasuu.mp4composer D/MuxRender: Output format determined, writing 15 samples / 4083 bytes to muxer.
+2022-02-16 09:57:27.729 15994-16281/com.daasuu.mp4composer I/MPEG4Writer: setStartTimestampUs: 0
+2022-02-16 09:57:27.729 15994-16281/com.daasuu.mp4composer I/MPEG4Writer: Earliest track starting time: 0
+2022-02-16 09:57:27.804 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.805 15994-16280/com.daasuu.mp4composer I/MPEG4Writer: setStartTimestampUs: 0
+2022-02-16 09:57:27.806 15994-16260/com.daasuu.mp4composer D/HostConnection: createUnique: call
+2022-02-16 09:57:27.806 15994-16260/com.daasuu.mp4composer D/librcm: SocketClient connected to host port 22469
+2022-02-16 09:57:27.811 15994-16260/com.daasuu.mp4composer D/HostConnection: HostConnection::get() New Host Connection established 0x73bf24423dd0, tid 16260
+2022-02-16 09:57:27.811 15994-16260/com.daasuu.mp4composer D/HostConnection: HostComposition ext ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_virtio_gpu_next ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr GL_EXT_texture_compression_bptc GL_EXT_texture_compression_s3tc ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+2022-02-16 09:57:27.852 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.885 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:27.885 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.02526640304628002
+2022-02-16 09:57:27.929 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.119 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 5 lines
+2022-02-16 09:57:28.120 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.120 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.120 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.120 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.121 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.121 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.121 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.121 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.122 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.044586408904510835
+2022-02-16 09:57:28.122 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.122 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.122 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.122 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.123 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.123 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.123 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.123 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.123 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.123 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.124 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.124 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.124 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.124 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.125 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.125 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.125 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.127 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.127 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.127 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.127 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.05399157879320445
+2022-02-16 09:57:28.127 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.127 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.129 15994-16024/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=25.08ms min=3.02ms max=533.16ms count=55
+2022-02-16 09:57:28.129 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.129 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.129 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.129 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.130 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.130 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.130 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.130 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.131 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.131 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.131 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.131 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.132 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.132 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.132 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.132 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.132 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.133 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:28.133 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.06336474809607498
+2022-02-16 09:57:28.180 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.181 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.215 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.256 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.524 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 6 lines
+2022-02-16 09:57:28.525 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.526 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.08531436731107206
+2022-02-16 09:57:28.526 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.526 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.526 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.526 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.527 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.527 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.527 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.527 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.527 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.527 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.528 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.528 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.528 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.528 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.528 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.528 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.528 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.528 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.529 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.530 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.530 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.09468753661394258
+2022-02-16 09:57:28.530 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.530 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.531 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.531 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.531 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.531 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.531 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.532 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.532 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.532 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.532 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.532 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.533 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.534 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.534 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.534 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.534 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.534 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.534 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.535 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.535 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.10406070591681313
+2022-02-16 09:57:28.535 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.535 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.535 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.535 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:28.535 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.536 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:28.594 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:28.595 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.742 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 3 lines
+2022-02-16 09:57:28.790 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.837 15994-16254/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=47.50ms min=26.74ms max=76.91ms count=23
+2022-02-16 09:57:28.837 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.886 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:28.886 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.1218176625659051
+2022-02-16 09:57:28.962 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.010 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 2 lines
+2022-02-16 09:57:29.010 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.010 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.011 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.011 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.011 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.011 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.012 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.012 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.012 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.013 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.013 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.013 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.013 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.015 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.016 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.13538276215582895
+2022-02-16 09:57:29.016 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.016 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.016 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.016 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.017 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.017 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.018 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.018 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.018 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.018 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.018 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.019 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.019 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.019 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.019 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.019 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.020 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.020 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.020 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.020 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.020 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.14631810193321618
+2022-02-16 09:57:29.021 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.021 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.021 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.021 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.022 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.022 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.023 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.023 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.023 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.023 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.023 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.023 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:29.071 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.071 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.163 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 2 lines
+2022-02-16 09:57:29.210 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.210 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.158324179847686
+2022-02-16 09:57:29.255 15994-16024/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=125.05ms min=3.02ms max=398.62ms count=9
+2022-02-16 09:57:29.274 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.480 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 5 lines
+2022-02-16 09:57:29.480 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.480 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.481 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.481 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.481 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.481 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.482 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.482 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.482 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.17764330697129466
+2022-02-16 09:57:29.482 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.484 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.484 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.484 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.485 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.485 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.486 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.486 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.486 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.486 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.488 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.489 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.489 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.489 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.489 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.490 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.490 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.490 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.491 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.491 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.491 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.1870164762741652
+2022-02-16 09:57:29.491 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.492 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.492 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.492 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.492 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.492 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.493 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.493 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.494 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.494 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.495 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.495 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.495 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.495 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.496 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.496 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.496 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.496 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:29.540 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.541 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.541 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.19726611013473933
+2022-02-16 09:57:29.601 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.757 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 3 lines
+2022-02-16 09:57:29.805 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.853 15994-16254/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=53.33ms min=45.13ms max=76.42ms count=19
+2022-02-16 09:57:29.853 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.945 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 3 lines
+2022-02-16 09:57:29.945 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.945 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.945 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.21834028998242533
+2022-02-16 09:57:29.946 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.949 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.949 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.949 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.950 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.950 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.950 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.951 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.951 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.951 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.952 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.952 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.952 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.952 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.953 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.953 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.953 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.953 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.954 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.954 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.954 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.22771345928529585
+2022-02-16 09:57:29.954 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.955 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.955 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.955 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.955 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.955 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.956 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.956 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.956 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.956 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.957 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.957 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.957 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.958 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.958 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.958 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.959 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.959 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.960 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.960 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.960 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.23708662858816637
+2022-02-16 09:57:29.960 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:29.960 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:29.961 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:29.961 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:30.005 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:30.008 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.238 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 6 lines
+2022-02-16 09:57:30.284 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.284 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.2557198301113064
+2022-02-16 09:57:30.329 15994-16024/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=153.10ms min=7.82ms max=373.09ms count=7
+2022-02-16 09:57:30.345 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.346 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 1 line
+2022-02-16 09:57:30.346 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.346 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:30.346 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:30.347 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.347 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.347 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:30.348 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.348 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:30.348 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:30.348 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.349 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.349 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:30.349 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:30.349 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.349 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.350 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:30.350 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.26840949033391914
+2022-02-16 09:57:30.350 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.350 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:30.351 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:30.351 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.351 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.352 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:30.352 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.352 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:30.353 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:30.353 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.353 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.353 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:30.354 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:30.354 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.354 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.354 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:30.355 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.355 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:30.845 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:30.846 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:30.846 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.28022026947861745
+2022-02-16 09:57:30.906 15994-16254/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=80.88ms min=29.03ms max=499.39ms count=13
+2022-02-16 09:57:30.906 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.156 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 6 lines
+2022-02-16 09:57:31.156 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.156 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:31.157 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:31.159 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.159 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.159 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:31.159 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.29797803163444636
+2022-02-16 09:57:31.160 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.160 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:31.160 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:31.160 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.160 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.160 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:31.161 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:31.161 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.161 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.161 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:31.162 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.162 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:31.162 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:31.162 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.162 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.163 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:31.163 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:31.163 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.163 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.163 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:31.163 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.30735120093731694
+2022-02-16 09:57:31.164 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.164 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:31.164 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:31.164 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.164 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.165 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:31.165 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.165 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:31.165 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:31.166 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.166 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.166 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:31.166 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:31.167 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.167 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.167 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:31.168 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.168 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:31.168 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:31.168 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:31.168 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.31672437024018746
+2022-02-16 09:57:31.206 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:31.209 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.389 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 4 lines
+2022-02-16 09:57:31.889 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:31.935 15994-16254/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=85.55ms min=43.47ms max=499.42ms count=12
+2022-02-16 09:57:31.935 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.029 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 2 lines
+2022-02-16 09:57:32.030 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.030 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.33867398945518457
+2022-02-16 09:57:32.030 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.030 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.031 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.031 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.032 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.032 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.032 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.032 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.032 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.033 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.033 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.033 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.033 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.033 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.033 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.033 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.034 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.034 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.034 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.034 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.034 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.3480471587580551
+2022-02-16 09:57:32.034 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.035 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.035 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.035 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.035 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.035 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.036 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.036 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.036 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.036 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.036 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.036 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.037 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.037 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.037 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.037 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.037 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.038 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.038 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.040 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.040 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.3574203280609256
+2022-02-16 09:57:32.040 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.040 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.040 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.040 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.040 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.041 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:32.042 15994-16024/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=285.33ms min=4.61ms max=861.10ms count=6
+2022-02-16 09:57:32.113 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.113 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.294 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 5 lines
+2022-02-16 09:57:32.342 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.342 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.3751797744581137
+2022-02-16 09:57:32.376 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.404 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 2 lines
+2022-02-16 09:57:32.404 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.404 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.404 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.404 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.404 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.404 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.405 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.405 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.406 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.406 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.406 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.406 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.407 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.407 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.407 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.38874318980667844
+2022-02-16 09:57:32.407 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.407 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.408 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.408 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.408 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.408 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.408 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.408 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.409 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.409 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.409 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.410 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.410 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.410 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.410 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.411 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.415 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.415 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.416 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.416 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.416 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.399677065026362
+2022-02-16 09:57:32.416 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.419 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.419 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.419 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.419 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.420 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.420 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.420 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.420 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.420 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.420 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.420 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:32.484 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.484 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.543 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 2 lines
+2022-02-16 09:57:32.589 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.589 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.4116823374340949
+2022-02-16 09:57:32.653 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.858 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 5 lines
+2022-02-16 09:57:32.858 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.858 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.859 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.859 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.859 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.859 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.860 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.860 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.860 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.43100395430579963
+2022-02-16 09:57:32.860 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.861 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.861 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.861 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:32.861 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:32.862 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.862 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:32.862 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:33.199 15994-16254/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=60.07ms min=26.30ms max=342.04ms count=21
+2022-02-16 09:57:33.199 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.294 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 3 lines
+2022-02-16 09:57:33.294 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.294 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:33.295 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:33.296 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.296 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.4430051991798477
+2022-02-16 09:57:33.296 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.296 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:33.296 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.296 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:33.296 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:33.297 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.297 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.297 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:33.297 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:33.300 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.300 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.300 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:33.300 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.300 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:33.301 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:33.301 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.301 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.301 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:33.302 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:33.302 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.302 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.45237836848271823
+2022-02-16 09:57:33.302 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.302 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:33.303 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.303 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:33.303 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:33.303 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.304 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.304 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:33.304 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:33.304 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.304 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.304 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:33.305 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.305 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:33.305 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:33.305 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.306 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.306 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:33.306 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.306 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:33.306 15994-16024/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=157.92ms min=15.91ms max=436.93ms count=8
+2022-02-16 09:57:33.306 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.46331370826010543
+2022-02-16 09:57:33.306 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:33.307 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:33.403 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:33.404 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:33.621 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 4 lines
+2022-02-16 09:57:33.665 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.242 15994-16254/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=115.78ms min=44.74ms max=576.65ms count=9
+2022-02-16 09:57:34.242 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.289 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 1 line
+2022-02-16 09:57:34.334 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.334 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.4828272554188635
+2022-02-16 09:57:34.335 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.335 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.335 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.335 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.336 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.336 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.336 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.336 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.336 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.336 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.338 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.338 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.338 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.339 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.339 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.339 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.339 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.339 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.339 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.339 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.49463810779144696
+2022-02-16 09:57:34.340 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.340 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.340 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.340 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.340 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.341 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.341 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.341 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.341 15994-16024/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=344.76ms min=15.57ms max=955.79ms count=3
+2022-02-16 09:57:34.341 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.341 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.341 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.342 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.342 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.342 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.343 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.343 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.343 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.343 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.343 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.344 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.344 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.5040112770943175
+2022-02-16 09:57:34.344 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.344 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.345 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.345 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.345 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.345 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.345 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.346 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:34.356 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.357 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:34.395 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.396 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.536 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 3 lines
+2022-02-16 09:57:34.584 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.584 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.5168904510837727
+2022-02-16 09:57:34.645 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.800 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 4 lines
+2022-02-16 09:57:34.801 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.801 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.801 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.803 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.803 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.803 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.804 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.804 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.804 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.804 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.804 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.5337719683655535
+2022-02-16 09:57:34.804 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.804 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.805 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.805 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.805 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.805 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.805 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.805 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.806 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.806 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.806 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.806 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.807 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.807 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.807 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.807 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.808 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.808 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.808 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.808 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.809 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.5431451376684242
+2022-02-16 09:57:34.809 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.809 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.809 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.809 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.810 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.810 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.810 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.810 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.810 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.811 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.811 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.811 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.811 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.811 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:34.812 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.812 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:34.893 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:34.898 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.954 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:34.954 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.5533945518453427
+2022-02-16 09:57:35.016 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.173 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 3 lines
+2022-02-16 09:57:35.219 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.266 15994-16254/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=53.73ms min=45.15ms max=93.92ms count=19
+2022-02-16 09:57:35.266 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.313 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 2 lines
+2022-02-16 09:57:35.313 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.313 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.313 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.314 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.314 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.5744679261862917
+2022-02-16 09:57:35.315 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.315 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.315 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.315 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.315 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.316 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.316 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.316 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.316 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.317 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.317 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.317 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.317 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.317 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.319 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.319 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.319 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.319 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.319 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.320 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.320 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.5838395577035735
+2022-02-16 09:57:35.320 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.320 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.320 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.320 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.320 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.321 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.321 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.321 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.321 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.321 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.322 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.322 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.322 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.322 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.323 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.325 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.325 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.325 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.326 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.326 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.326 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.5947748974809608
+2022-02-16 09:57:35.326 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.326 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:35.337 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.337 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:35.341 15994-16024/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=124.90ms min=4.23ms max=326.72ms count=8
+2022-02-16 09:57:35.422 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.423 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.716 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 6 lines
+2022-02-16 09:57:35.762 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.762 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.6118484182776802
+2022-02-16 09:57:35.811 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.812 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 1 line
+2022-02-16 09:57:35.812 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.812 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.813 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.813 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.813 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.813 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.813 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.813 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.814 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.814 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.814 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.814 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.814 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.815 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.815 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.815 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.815 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.6245380052724078
+2022-02-16 09:57:35.815 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.815 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.815 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.816 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.816 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.816 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.817 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.817 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.818 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.818 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.818 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.818 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.819 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.819 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.819 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.819 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.819 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.819 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.820 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.823 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.823 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.6339111745752783
+2022-02-16 09:57:35.823 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.823 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.824 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.824 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.825 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.825 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.825 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.825 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:35.825 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.825 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:35.859 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:35.860 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.953 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 3 lines
+2022-02-16 09:57:35.980 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:35.980 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.648354935559461
+2022-02-16 09:57:36.026 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.181 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 4 lines
+2022-02-16 09:57:36.182 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.182 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.182 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.182 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.182 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.182 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.183 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.183 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.183 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.183 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.183 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.6652339630931459
+2022-02-16 09:57:36.183 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.183 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.184 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.184 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.184 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.184 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.184 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.184 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.184 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.185 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.185 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.185 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.185 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.185 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.186 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.187 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.187 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.187 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.188 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.190 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.190 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.6746071323960163
+2022-02-16 09:57:36.190 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.190 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.191 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.191 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.191 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.192 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.192 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.192 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.192 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.193 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.193 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.193 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.193 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.193 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.194 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.194 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:36.275 15994-16254/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=50.33ms min=26.12ms max=110.51ms count=20
+2022-02-16 09:57:36.276 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.277 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.336 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.336 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.6848558142940832
+2022-02-16 09:57:36.382 15994-16024/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=129.94ms min=7.96ms max=386.10ms count=8
+2022-02-16 09:57:36.399 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.698 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 7 lines
+2022-02-16 09:57:36.698 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.698 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.699 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.699 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.699 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.7059299941417692
+2022-02-16 09:57:36.699 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.699 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.700 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.700 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.700 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.700 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.701 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.701 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.701 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.702 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.702 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.702 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.702 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.702 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.702 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.703 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.703 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.703 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.704 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.704 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.704 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.7168653339191564
+2022-02-16 09:57:36.704 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.706 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.706 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.706 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.707 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.707 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.707 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.707 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.707 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.707 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.708 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.708 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.708 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.708 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.708 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.709 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.709 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.709 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.709 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:36.709 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:36.709 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.7262385032220269
+2022-02-16 09:57:36.710 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.710 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:36.765 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:36.765 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.039 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 7 lines
+2022-02-16 09:57:37.086 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.086 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.745749633860574
+2022-02-16 09:57:37.087 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.087 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.087 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.087 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.087 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.087 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.087 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.088 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.088 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.088 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.088 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.088 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.088 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.088 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.088 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.089 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.089 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.089 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.089 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.090 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.7575612917398945
+2022-02-16 09:57:37.090 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.092 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.092 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.092 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.092 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.092 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.093 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.093 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.093 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.093 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.093 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.094 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.094 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.094 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.094 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.094 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.094 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.095 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.095 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.095 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.095 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.7669344610427651
+2022-02-16 09:57:37.095 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.095 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.095 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.095 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.096 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.096 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.098 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.098 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:37.147 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.147 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.194 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.240 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.286 15994-16254/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=47.99ms min=26.36ms max=67.55ms count=21
+2022-02-16 09:57:37.287 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.333 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 1 line
+2022-02-16 09:57:37.380 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.380 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.7822546865846514
+2022-02-16 09:57:37.423 15994-16024/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=148.68ms min=3.98ms max=331.70ms count=7
+2022-02-16 09:57:37.443 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.552 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 3 lines
+2022-02-16 09:57:37.552 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.552 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.552 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.553 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.553 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.553 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.553 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.553 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.553 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.554 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.554 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.554 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.554 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.798257396016403
+2022-02-16 09:57:37.554 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.554 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.554 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.557 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.557 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.557 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.557 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.557 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.557 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.557 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.558 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.558 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.558 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.558 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.558 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.558 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.559 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.559 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.559 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.559 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.559 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.8076305653192736
+2022-02-16 09:57:37.560 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.560 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.560 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.560 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.560 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.560 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.561 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.561 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.561 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.561 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.561 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.561 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.562 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.562 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:37.597 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.598 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.628 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 1 line
+2022-02-16 09:57:37.661 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.662 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.8187579818394846
+2022-02-16 09:57:37.695 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.896 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 6 lines
+2022-02-16 09:57:37.896 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.896 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.896 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.896 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.897 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.897 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.897 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.8389533538371412
+2022-02-16 09:57:37.897 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.897 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.897 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.900 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.900 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.900 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.900 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.900 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.901 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.901 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.901 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.901 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.902 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.902 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.902 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.902 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.902 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.902 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.903 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.903 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.903 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.8483265231400117
+2022-02-16 09:57:37.903 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.903 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.904 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.904 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.904 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.904 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.904 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.905 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.905 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.905 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.906 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.906 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.906 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.906 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.906 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.907 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.907 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:37.907 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:37.907 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.907 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:37.907 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.8576996924428822
+2022-02-16 09:57:37.957 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:37.957 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.194 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 5 lines
+2022-02-16 09:57:38.242 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.288 15994-16254/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=45.38ms min=26.27ms max=62.74ms count=22
+2022-02-16 09:57:38.288 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.334 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 1 line
+2022-02-16 09:57:38.335 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.335 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.8796493848857645
+2022-02-16 09:57:38.336 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.336 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.336 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.336 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.336 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.338 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.338 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.338 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.338 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.339 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.339 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.339 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.339 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.339 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.340 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.340 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.340 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.340 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.341 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.341 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.341 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.889022554188635
+2022-02-16 09:57:38.341 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.341 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.342 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.342 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.342 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.342 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.342 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.343 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.343 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.343 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.344 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.344 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.344 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.344 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.344 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.344 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.345 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.345 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.345 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.345 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.345 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.8999579671939074
+2022-02-16 09:57:38.345 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.345 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.346 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.346 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.346 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.346 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:38.446 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.449 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.505 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.517 15994-16024/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=109.16ms min=3.14ms max=432.69ms count=10
+2022-02-16 09:57:38.586 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.633 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.725 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 2 lines
+2022-02-16 09:57:38.771 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.771 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.9161559021675454
+2022-02-16 09:57:38.831 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.896 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 2 lines
+2022-02-16 09:57:38.896 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.897 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.897 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.897 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.897 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.898 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.898 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.898 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.898 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.898 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.899 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.899 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.899 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.899 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.899 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.9312832454598711
+2022-02-16 09:57:38.899 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.900 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.900 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.900 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.900 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.900 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.900 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.900 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.901 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.901 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.901 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.901 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.902 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.902 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.903 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.904 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.904 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.904 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.904 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.904 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.904 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.9406564147627416
+2022-02-16 09:57:38.904 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.905 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.905 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.905 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.905 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.905 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.906 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.908 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.908 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:38.908 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:38.908 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.908 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:1
+2022-02-16 09:57:38.962 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:38.962 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:39.019 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 2 lines
+2022-02-16 09:57:39.066 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:39.066 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.9526592706502637
+2022-02-16 09:57:39.128 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:39.239 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 2 lines
+2022-02-16 09:57:39.286 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:39.332 15994-16254/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=54.81ms min=27.26ms max=111.00ms count=19
+2022-02-16 09:57:39.332 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:39.333 15994-16254/com.daasuu.mp4composer I/chatty: uid=10066(com.daasuu.mp4composer) pool-4-thread-1 identical 1 line
+2022-02-16 09:57:39.333 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:39.334 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:39.334 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:39.334 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:39.335 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:39.335 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:39.335 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:39.335 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:39.336 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.9719792032806093
+2022-02-16 09:57:39.336 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:39.336 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:39.336 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:39.336 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:39.336 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:39.336 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:39.337 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:39.337 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:39.337 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:0
+2022-02-16 09:57:39.337 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:0
+2022-02-16 09:57:39.337 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:1
+2022-02-16 09:57:39.337 15994-16254/com.daasuu.mp4composer D/VideoComposer: drainExtractor trackIndex:-1
+2022-02-16 09:57:39.338 15994-16254/com.daasuu.mp4composer D/AudioComposer: stepPipeline trackIndex:-1
+2022-02-16 09:57:39.338 15994-16281/com.daasuu.mp4composer V/MediaWriter: Track event err/info msg:101, trackId:2, type:1000,val:0
+2022-02-16 09:57:39.338 15994-16281/com.daasuu.mp4composer I/MPEG4Writer: Received total/0-length (318/0) buffers and encoded 318 frames. - Audio
+2022-02-16 09:57:39.338 15994-16281/com.daasuu.mp4composer I/MPEG4Writer: Audio track drift time: 0 us
+2022-02-16 09:57:39.395 15994-16254/com.daasuu.mp4composer D/SAMPLE: onProgress = 0.982906121851201
+2022-02-16 09:57:39.684 15994-16280/com.daasuu.mp4composer V/MediaWriter: Track event err/info msg:101, trackId:1, type:1000,val:0
+2022-02-16 09:57:39.684 15994-16280/com.daasuu.mp4composer I/MPEG4Writer: Received total/0-length (205/0) buffers and encoded 205 frames. - Video
+2022-02-16 09:57:39.684 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: reset()
+2022-02-16 09:57:39.684 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: Video track stopping. Stop source
+2022-02-16 09:57:39.684 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: Video track source stopping
+2022-02-16 09:57:39.684 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: Video track source stopped
+2022-02-16 09:57:39.684 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: Video track stopped. Status:0. Stop source
+2022-02-16 09:57:39.684 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: Audio track stopping. Stop source
+2022-02-16 09:57:39.684 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: Audio track source stopping
+2022-02-16 09:57:39.684 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: Audio track source stopped
+2022-02-16 09:57:39.684 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: Audio track stopped. Status:0. Stop source
+2022-02-16 09:57:39.684 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: Duration from tracks range is [6797313, 6827811] us
+2022-02-16 09:57:39.684 15994-16278/com.daasuu.mp4composer D/MPEG4Writer: 0 chunks are written in the last batch
+2022-02-16 09:57:39.685 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: WriterThread stopped. Status:0
+2022-02-16 09:57:39.685 15994-16254/com.daasuu.mp4composer I/MPEG4Writer: Adjust the moov start time from 0 us -> 0 us
+2022-02-16 09:57:39.685 15994-16254/com.daasuu.mp4composer I/MPEG4Writer: The mp4 file will not be streamable.
+2022-02-16 09:57:39.685 15994-16254/com.daasuu.mp4composer I/MPEG4Writer: MOOV atom was written to the file
+2022-02-16 09:57:39.685 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: release()
+2022-02-16 09:57:39.696 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: MP4WtrCtrlHlpLooper stopped
+2022-02-16 09:57:39.696 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: Top 5 write durations(microseconds): #1:40028 #2:40042 #3:40074 #4:59961 #5:505468
+2022-02-16 09:57:39.696 15994-16254/com.daasuu.mp4composer E/Surface: freeAllBuffers: 1 buffers were freed while being dequeued!
+2022-02-16 09:57:39.697 15994-16254/com.daasuu.mp4composer E/Surface: getSlotFromBufferLocked: unknown buffer: 0x0
+2022-02-16 09:57:39.707 15994-16260/com.daasuu.mp4composer D/SurfaceUtils: disconnecting from surface 0x73c014448f90, reason disconnectFromSurface
+2022-02-16 09:57:39.712 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: reset()
+2022-02-16 09:57:39.712 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: Video track stopping. Stop source
+2022-02-16 09:57:39.712 15994-16254/com.daasuu.mp4composer E/MPEG4Writer: Stop() called but track is not started or stopped
+2022-02-16 09:57:39.712 15994-16254/com.daasuu.mp4composer D/MPEG4Writer: Audio track stopping. Stop source
+2022-02-16 09:57:39.712 15994-16254/com.daasuu.mp4composer E/MPEG4Writer: Stop() called but track is not started or stopped
+2022-02-16 09:57:39.712 15994-16254/com.daasuu.mp4composer D/SAMPLE: onCompleted()
+2022-02-16 09:57:39.721 15994-15994/com.daasuu.mp4composer D/CompatibilityChangeReporter: Compat change id reported: 147798919; UID 10066; state: DISABLED
+2022-02-16 09:57:39.736 15994-16024/com.daasuu.mp4composer D/EGL_emulation: app_time_stats: avg=174.08ms min=14.83ms max=297.75ms count=7
